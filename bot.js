@@ -41,4 +41,4 @@ bot.on("voiceStateUpdate", (oldMember,newMember) =>{
 
 
 
-bot.login("NzM2MTk4MjQ3NDI0NTg5ODU2.XxrUDA.W8kDWn6eKVlxQW-3wdDqT3g2uyw");
+bot.login(process.env.token);
